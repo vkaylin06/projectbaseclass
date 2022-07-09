@@ -87,6 +87,7 @@ public class Booking {
 		String orderId = b.attributeVal(order, "value");
 
 		b.excelWriteData("Sheet1", 1, 8, "adactin inputs.xlsx", orderId);
+		System.out.println("************adactin********");
 
 		b.quitDriver();
 	}
